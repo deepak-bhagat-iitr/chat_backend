@@ -10,7 +10,7 @@ const server = app.listen(5000, () => {
 // Attach Socket.IO to the HTTP server
 const io = new Server(server, {
   cors: {
-    origin: "*",
+    origin: "https://chat-frontend-7r5i.onrender.com",
     methods: ["GET", "POST"],
   }
 });
